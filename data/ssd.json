@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Samsung SSD 870 QVO 1TB",
+    "price": 1749000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Samsung SSD 870 EVO 250GB",
+    "price": 975000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Samsung SSD 860 EVO M.2 SATA 500GB",
+    "price": 1175000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Samsung SSD 970 EVO PLUS M.2 2TB MZ-V7S2T0BW",
+    "price": 5099000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Sandisk SSD Extreme Pro M.2 500GB NVME PCIe",
+    "price": 1515000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "Sandisk SSD Plus 480GB - SDSSDA-480G",
+    "price": 975000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "SanDisk SSD Ultra 3D 500GB",
+    "price": 1000000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "SanDisk SSD Ultra 3D 1TB",
+    "price": 1760000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "Seagate SSD M.2 2280 PCIe Gen3x4 2TB - BarraCuda Q5 Series",
+    "price": 3849000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Seagate SSD M.2 2280 PCIe Gen4x4 2TB - FireCuda 520 Series",
+    "price": 7000000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Seagate SSD M.2 2280 PCIe Gen3x4 960GB NAS - IronWolf 510 Series",
+    "price": 3999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Seagate SSD 2TB - BarraCuda Series",
+    "price": 3850000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  }
+]

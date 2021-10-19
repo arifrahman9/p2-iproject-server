@@ -1,0 +1,938 @@
+[
+  {
+    "name": "AMD Ryzen 3 3300X 3.8Ghz Up To 4.3Ghz Cache 16MB 65W AM4 [Box] - 4 Core - 100-100000159BOX - With AMD Wraith Stealth Cooler",
+    "price": 2549000,
+    "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634614329/Cashier.jpg",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen 5 3500 3.6Ghz Up To 4.1Ghz Cache 16MB 65W AM4 [Box] - 6 Core - 100-100000050BOX - With AMD Wraith Stealth Cooler",
+    "price": 2649000,
+    "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634614538/Cashier.png",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen 7 Pinnacle Ridge 2700X 3.7Ghz Up To 4.3Ghz Cache 16MB 105W AM4 [Box] - 8 Core - YD270XBGAFBOX - With AMD Wraith Prism Cooler",
+    "price": 3199000,
+    "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634614956/Cashier.png",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen 9 5950X 3.4Ghz Up To 4.9Ghz Cache 64MB 105W AM4 [Box] - 16 Core - 100-100000059WOF",
+    "price": 12899000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen Threadripper 3970X 3.7Ghz Up To 4.5Ghz Cache 128MB 280W sTRX4 [BOX] - 32 Core - 100-100000011WOF",
+    "price": 30699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "Intel Core i3-9100 3.6Ghz Up To 4.2Ghz - Cache 6MB [Box] Socket LGA 1151V2 - Coffeelake Series",
+    "price": 2210000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Core i5-7640X 4.0Ghz Up To 4.2Ghz - Cache 6MB [Box] Socket LGA 2066 - Kabylake-X Series",
+    "price": 3915000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Core i7-7820X 3.6Ghz Up To 4.3Ghz - Cache 11MB [Box] Socket LGA 2066 - Skylake-X Series",
+    "price": 9600000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Core i9-9980XE 3.0Ghz Up To 4.4Ghz - Cache 24.75MB [Box] Socket LGA 2066 - Skylake-X Series",
+    "price": 28150000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Xeon BRONZE 3106, 1.70Ghz, Cache 11MB, LGA 3647",
+    "price": 5208000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "GALAX B460M EX",
+    "price": 1490000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 3
+  },
+  {
+    "name": "GALAX Z390 GAMER",
+    "price": 1980000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 3
+  },
+  {
+    "name": "GALAX X570M",
+    "price": 1950000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 3
+  },
+  {
+    "name": "GALAX B550M EX",
+    "price": 1830000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 3
+  },
+  {
+    "name": "Biostar Z490T Silver",
+    "price": 1920000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 4
+  },
+  {
+    "name": "Biostar Z490A Silver",
+    "price": 2413000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 4
+  },
+  {
+    "name": "Biostar H510MX/E",
+    "price": 1112000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 4
+  },
+  {
+    "name": "Biostar X370GT7",
+    "price": 2485000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 4
+  },
+  {
+    "name": "ASRock Z590 Extreme",
+    "price": 3445000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 5
+  },
+  {
+    "name": "ASRock Z590 PG Velocita",
+    "price": 4999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 5
+  },
+  {
+    "name": "ASRock Z590 Steel Legend",
+    "price": 3299000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 5
+  },
+  {
+    "name": "ASRock Z590 Pro4",
+    "price": 2732000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 2,
+    "brandId": 5
+  },
+  {
+    "name": "MSI GeForce GT 710 1GB DDR3 - N710-1GD3H LP",
+    "price": 760000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "MSI GeForce GT 1030 2GB DDR4 - 2GD4 LP OC",
+    "price": 1460000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "MSI GeForce GTX 1050 Ti 4GB DDR5 - 4GT LP (Low Profile)",
+    "price": 3499000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "MSI GeForce RTX 3070 8GB GDDR6 - Gaming X TRIO",
+    "price": 18399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Vision OC - GV-N3080VISION OC-10GD",
+    "price": 24399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Aorus Xtreme - GV-N3080AORUS X-10GD",
+    "price": 27499000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3090 24GB GDDR6X Aorus Xtreme - GV-N3090AORUS X-24GD",
+    "price": 43349000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3080 Ti 12GB GDDR6X Aorus Xtreme Waterforce - GV-N308TAORUS X WB-12GD",
+    "price": 18399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Zotac GeForce GTX 1050 Ti 4GB DDR5 - Single Fan",
+    "price": 3599000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Zotac GeForce GTX 1650 4GB DDR6 OC Edition",
+    "price": 5799000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Zotac GeForce RTX 2060 6GB DDR6",
+    "price": 10699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Zotac GeForce RTX 3090 24GB GDDR6x Trinity",
+    "price": 39999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Kingston KVR DDR4 2666 Mhz (PC 21000) 8GB - KVR26N19S6/8",
+    "price": 685000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 9
+  },
+  {
+    "name": "Kingston Fury Beast DDR4 3200MHz (PC25600) 16GB (2x8GB) - KF432C16BBK2/16",
+    "price": 1225000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 9
+  },
+  {
+    "name": "Kingston Fury Beast DDR4 3600MHz (PC28800) 16GB (2x8GB) - KF436C17BBK2/16",
+    "price": 1375000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 9
+  },
+  {
+    "name": "Kingston Fury Beast RGB DDR4 3200MHz (PC25600) 16GB (2x8GB) - KF432C16BBAK2/16",
+    "price": 1399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 9
+  },
+  {
+    "name": "V-GeN Rescue DDR3 4GB PC12800",
+    "price": 268000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 10
+  },
+  {
+    "name": "V-GeN TsunamiR DDR4 PC21000 2666Mhz Single Channel 4GB (1x4GB) 16-18-18-35",
+    "price": 332000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 10
+  },
+  {
+    "name": "V-GeN TsunamiR DDR4 PC24000 3000Mhz Single Channel 8GB (1x8GB) 15-17-17-35",
+    "price": 590000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 10
+  },
+  {
+    "name": "V-GeN TsunamiR DDR4 PC25600 3200Mhz Single Channel 16GB (1x16GB) 16-18-18-36",
+    "price": 1088000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 10
+  },
+  {
+    "name": "Corsair DDR4 Vengeance LPX PC19200 8GB (1X8GB) - CMK8GX4M1A2400C16",
+    "price": 629000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 11
+  },
+  {
+    "name": "Corsair DDR4 Vengeance LPX PC21000 32GB (1X32GB) - CMK32GX4M1A2666C16",
+    "price": 2699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 11
+  },
+  {
+    "name": "Corsair DDR4 Vengeance LPX PC25600 16GB (2X8GB) - CMK16GX4M2B3200C16W",
+    "price": 1329000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 11
+  },
+  {
+    "name": "Corsair DDR4 Vengeance RGB Pro PC28800 32GB (2X16GB) - CMW32GX4M2Z3600C14 - For AMD RYZEN",
+    "price": 4319000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 4,
+    "brandId": 11
+  },
+  {
+    "name": "Logitech G213 Prodigy Gaming Keyboard",
+    "price": 569000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Logitech G310 Gaming Mechanical Keyboard",
+    "price": 1110000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Logitech G413 Carbon Mechanical Gaming Keyboard",
+    "price": 999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Logitech K580 Slim Multi-Device Wireless Keyboard (Graphite/Off-white)",
+    "price": 536000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Sades Keyboard Mechanical Rebellion",
+    "price": 415000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Sades Keyboard K10 Dual Color Pink-White Mechanical Full Size",
+    "price": 430000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Sades Keyboard Mechanical TKL RGB Lucent",
+    "price": 535000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Sades Keyboard Mechanical Dragon Wolf",
+    "price": 655000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Razer Cynosa Chroma – Multi-Color Membrane Gaming Keyboard",
+    "price": 849000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Razer Cynosa V2 - Chroma RGB Membrane Gaming Keyboard",
+    "price": 799000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Razer Ornata V2 - Hybrid Chroma RGB Gaming Keyboard",
+    "price": 1275000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Razer Blackwidow Elite - Mechanical Gaming Keyboard (Green Switch)",
+    "price": 2699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Fantech Alpha GC181 Gaming Chairs",
+    "price": 2000000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 15
+  },
+  {
+    "name": "Fantech Alpha GC185 Gaming Chairs",
+    "price": 899000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 15
+  },
+  {
+    "name": "Fantech Alpha GC283 Gaming Chairs",
+    "price": 3299000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 15
+  },
+  {
+    "name": "Fantech Alpha GC188 Gaming Chairs",
+    "price": 2549000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 15
+  },
+  {
+    "name": "Digital Alliance Gaming Chair Throne Lite",
+    "price": 1825000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 16
+  },
+  {
+    "name": "Digital Alliance Gaming Chair Throne 150 E (Black Blue)",
+    "price": 2250000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 16
+  },
+  {
+    "name": "Digital Alliance Gaming Chair Throne X",
+    "price": 3300000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 16
+  },
+  {
+    "name": "Digital Alliance Gaming Chair Throne Asami RGB",
+    "price": 3700000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 16
+  },
+  {
+    "name": "Rexus Gaming Chair RGC-101",
+    "price": 2350000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 17
+  },
+  {
+    "name": "Rexus Gaming Chair RGC-111",
+    "price": 2620000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 17
+  },
+  {
+    "name": "Rexus Gaming Chair RGC-103 RGB Edition",
+    "price": 3400000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 17
+  },
+  {
+    "name": "Rexus Gaming Chair DarkThrone RGC-DT1",
+    "price": 3350000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 6,
+    "brandId": 17
+  },
+  {
+    "name": "Samsung SSD 870 QVO 1TB",
+    "price": 1749000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Samsung SSD 870 EVO 250GB",
+    "price": 975000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Samsung SSD 860 EVO M.2 SATA 500GB",
+    "price": 1175000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Samsung SSD 970 EVO PLUS M.2 2TB MZ-V7S2T0BW",
+    "price": 5099000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 18
+  },
+  {
+    "name": "Sandisk SSD Extreme Pro M.2 500GB NVME PCIe",
+    "price": 1515000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "Sandisk SSD Plus 480GB - SDSSDA-480G",
+    "price": 975000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "SanDisk SSD Ultra 3D 500GB",
+    "price": 1000000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "SanDisk SSD Ultra 3D 1TB",
+    "price": 1760000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 19
+  },
+  {
+    "name": "Seagate SSD M.2 2280 PCIe Gen3x4 2TB - BarraCuda Q5 Series",
+    "price": 3849000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Seagate SSD M.2 2280 PCIe Gen4x4 2TB - FireCuda 520 Series",
+    "price": 7000000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Seagate SSD M.2 2280 PCIe Gen3x4 960GB NAS - IronWolf 510 Series",
+    "price": 3999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Seagate SSD 2TB - BarraCuda Series",
+    "price": 3850000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 7,
+    "brandId": 20
+  },
+  {
+    "name": "Apple MacBook Pro MWP42 Touch Bar Grey/ MWP72 Touch Bar Silver",
+    "price": 28370000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 21
+  },
+  {
+    "name": "Apple MacBook Pro MVVJ2 Touch Bar Grey/ MVVL2 Touch Bar Silver",
+    "price": 35225000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 21
+  },
+  {
+    "name": "Apple MacBook Pro MYD82 Space Gray / MYDA2 Silver",
+    "price": 20685000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 21
+  },
+  {
+    "name": "Apple MacBook Air MGN63 Space Gray/MGN93 Silver",
+    "price": 16455000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 21
+  },
+  {
+    "name": "Asus X441BA-GA441T/GA442T/GA443T/GA444T",
+    "price": 5355000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 22
+  },
+  {
+    "name": "Asus A412DA-EK551TS/EK552TS/EK553TS/EK554TS",
+    "price": 10000000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 22
+  },
+  {
+    "name": "Asus ZenBook UM425UAZ-IPS551/IPS552",
+    "price": 13379000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 22
+  },
+  {
+    "name": "Asus VivoBook Flip TM420UA-EC751VIPS",
+    "price": 13050000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 22
+  },
+  {
+    "name": "Lenovo IdeaPad 5 14ITL05-5YID/60ID/61ID",
+    "price": 9599000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 23
+  },
+  {
+    "name": "Lenovo IdeaPad 5 14ITL05-XXID/XYID/Y3ID",
+    "price": 11999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 23
+  },
+  {
+    "name": "Lenovo IdeaPad 5 14ITL05-Y0ID/Y1ID/Y2ID",
+    "price": 16199000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 23
+  },
+  {
+    "name": "Lenovo V14-ARID",
+    "price": 8580000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 8,
+    "brandId": 23
+  },
+  {
+    "name": "HP LED 19.5' P204V",
+    "price": 1860000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "HP ProDisplay LED 21.5' P22Va",
+    "price": 2120000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "HP Elite LED 24' E243",
+    "price": 2850000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "HP LED 27' V270",
+    "price": 2449000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "LG 20' LED 20MK400A (Analog)",
+    "price": 1799000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "LG 21.5' 22MK400H-B FHD with AMD FreeSync",
+    "price": 1950000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "LG 27' LED 27MP59G Gaming - Response Time 1ms",
+    "price": 2920000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "LG 27' LED 27UL600 4K IPS Panel",
+    "price": 5250000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "Philips 242E2FE 23.8' FHD IPS 75Hz",
+    "price": 2350000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 26
+  },
+  {
+    "name": "Philips 271V8 27' FHD IPS 75Hz",
+    "price": 2525000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 26
+  },
+  {
+    "name": "Philips 272M8 27' FHD IPS Gaming Monitor 144Hz",
+    "price": 3224000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 26
+  },
+  {
+    "name": "Canon G1010 (Tabung Infus Model) (Print Only)",
+    "price": 1450000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 27
+  },
+  {
+    "name": "Canon G2010 (Print , Scan, Copy)",
+    "price": 1905000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 27
+  },
+  {
+    "name": "Canon G4010 (Tabung Infus Model) (Print , Scan, Copy, Fax, Wifi)",
+    "price": 3415000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 27
+  },
+  {
+    "name": "Canon IX 6770 (A3)",
+    "price": 3215000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 27
+  },
+  {
+    "name": "Epson L120 (Tabung Tinta Infus Resmi Epson) (Print Only)",
+    "price": 1720000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 28
+  },
+  {
+    "name": "Epson L850 (Tabung Tinta Infus Resmi Epson)",
+    "price": 4820000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 28
+  },
+  {
+    "name": "Epson L1800 Up To A3 Paper",
+    "price": 9020000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 28
+  },
+  {
+    "name": "Epson L6190 (Tabung Tinta Infus Resmi Epson) (Print, Scan, Copy, Fax, Wifi)",
+    "price": 3215000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 28
+  },
+  {
+    "name": "TONER FUJI XEROX CT201610 Black Toner",
+    "price": 815000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 29
+  },
+  {
+    "name": "TONER FUJI XEROX CT200805 DP-C3055DX,Black Toner (6.5 K)",
+    "price": 900000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 29
+  },
+  {
+    "name": "TONER FUJI XEROX CT200807 DP-C3055DX,Magenta Toner (6.5K)",
+    "price": 2450000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 29
+  },
+  {
+    "name": "TONER FUJI XEROX CT200859 DP-C4350,Yellow Toner Cartridge (15K)",
+    "price": 4451000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 10,
+    "brandId": 29
+  }
+]
