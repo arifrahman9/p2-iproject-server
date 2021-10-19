@@ -1,0 +1,82 @@
+[
+  {
+    "name": "AMD Ryzen 3 3300X 3.8Ghz Up To 4.3Ghz Cache 16MB 65W AM4 [Box] - 4 Core - 100-100000159BOX - With AMD Wraith Stealth Cooler",
+    "price": 2549000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen 5 3500 3.6Ghz Up To 4.1Ghz Cache 16MB 65W AM4 [Box] - 6 Core - 100-100000050BOX - With AMD Wraith Stealth Cooler",
+    "price": 2649000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "MD Ryzen 7 Pinnacle Ridge 2700X 3.7Ghz Up To 4.3Ghz Cache 16MB 105W AM4 [Box] - 8 Core - YD270XBGAFBOX - With AMD Wraith Prism Cooler",
+    "price": 3199000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen 9 5950X 3.4Ghz Up To 4.9Ghz Cache 64MB 105W AM4 [Box] - 16 Core - 100-100000059WOF",
+    "price": 12899000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "AMD Ryzen Threadripper 3970X 3.7Ghz Up To 4.5Ghz Cache 128MB 280W sTRX4 [BOX] - 32 Core - 100-100000011WOF",
+    "price": 30699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 1
+  },
+  {
+    "name": "IIntel Core i3-9100 3.6Ghz Up To 4.2Ghz - Cache 6MB [Box] Socket LGA 1151V2 - Coffeelake Series",
+    "price": 2210000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Core i5-7640X 4.0Ghz Up To 4.2Ghz - Cache 6MB [Box] Socket LGA 2066 - Kabylake-X Series",
+    "price": 3915000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Core i7-7820X 3.6Ghz Up To 4.3Ghz - Cache 11MB [Box] Socket LGA 2066 - Skylake-X Series",
+    "price": 9600000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Core i9-9980XE 3.0Ghz Up To 4.4Ghz - Cache 24.75MB [Box] Socket LGA 2066 - Skylake-X Series",
+    "price": 28150000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  },
+  {
+    "name": "Intel Xeon BRONZE 3106, 1.70Ghz, Cache 11MB, LGA 3647",
+    "price": 5208000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 1,
+    "brandId": 2
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "username": "Arif Rahman",
+    "email": "admin@gmail.com",
+    "password": "admin1",
+    "role": "Admin",
+    "status": "active"
+  },
+  {
+    "username": "Arif Rahman",
+    "email": "cashier@gmail.com",
+    "password": "cashier1",
+    "role": "Cashier",
+    "status": "active"
+  }
+]

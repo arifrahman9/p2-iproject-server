@@ -1,0 +1,90 @@
+[
+  {
+    "name": "HP LED 19.5' P204V",
+    "price": 1860000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "HP ProDisplay LED 21.5' P22Va",
+    "price": 2120000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "HP Elite LED 24' E243",
+    "price": 2850000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "HP LED 27' V270",
+    "price": 2449000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 24
+  },
+  {
+    "name": "LG 20' LED 20MK400A (Analog)",
+    "price": 1799000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "LG 21.5' 22MK400H-B FHD with AMD FreeSync",
+    "price": 1950000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "LG 27' LED 27MP59G Gaming - Response Time 1ms",
+    "price": 2920000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "LG 27' LED 27UL600 4K IPS Panel",
+    "price": 5250000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 25
+  },
+  {
+    "name": "Philips 242E2FE 23.8' FHD IPS 75Hz",
+    "price": 2350000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 26
+  },
+  {
+    "name": "Philips 271V8 27' FHD IPS 75Hz",
+    "price": 2525000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 26
+  },
+  {
+    "name": "Philips 272M8 27' FHD IPS Gaming Monitor 144Hz",
+    "price": 3224000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 9,
+    "brandId": 26
+  }
+]

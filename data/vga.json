@@ -1,0 +1,98 @@
+[
+  {
+    "name": "MSI GeForce GT 710 1GB DDR3 - N710-1GD3H LP",
+    "price": 760000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "MSI GeForce GT 1030 2GB DDR4 - 2GD4 LP OC",
+    "price": 1460000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "MSI GeForce GTX 1050 Ti 4GB DDR5 - 4GT LP (Low Profile)",
+    "price": 3499000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "MSI GeForce RTX 3070 8GB GDDR6 - Gaming X TRIO",
+    "price": 18399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 6
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Vision OC - GV-N3080VISION OC-10GD",
+    "price": 24399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Aorus Xtreme - GV-N3080AORUS X-10GD",
+    "price": 27499000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3090 24GB GDDR6X Aorus Xtreme - GV-N3090AORUS X-24GD",
+    "price": 43349000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Gigabyte GeForce RTX 3080 Ti 12GB GDDR6X Aorus Xtreme Waterforce - GV-N308TAORUS X WB-12GD",
+    "price": 18399000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 7
+  },
+  {
+    "name": "Zotac GeForce GTX 1050 Ti 4GB DDR5 - Single Fan",
+    "price": 3599000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Zotac GeForce GTX 1650 4GB DDR6 OC Edition",
+    "price": 5799000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Zotac GeForce RTX 2060 6GB DDR6",
+    "price": 10699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  },
+  {
+    "name": "Zotac GeForce RTX 3090 24GB GDDR6x Trinity",
+    "price": 39999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 3,
+    "brandId": 8
+  }
+]

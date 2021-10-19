@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Logitech G213 Prodigy Gaming Keyboard",
+    "price": 569000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Logitech G310 Gaming Mechanical Keyboard",
+    "price": 1110000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Logitech G413 Carbon Mechanical Gaming Keyboard",
+    "price": 999000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Logitech K580 Slim Multi-Device Wireless Keyboard (Graphite/Off-white)",
+    "price": 536000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 12
+  },
+  {
+    "name": "Sades Keyboard Mechanical Rebellion",
+    "price": 415000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Sades Keyboard K10 Dual Color Pink-White Mechanical Full Size",
+    "price": 430000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Sades Keyboard Mechanical TKL RGB Lucent",
+    "price": 535000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Sades Keyboard Mechanical Dragon Wolf",
+    "price": 655000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 13
+  },
+  {
+    "name": "Razer Cynosa Chroma – Multi-Color Membrane Gaming Keyboard",
+    "price": 849000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Razer Cynosa V2 - Chroma RGB Membrane Gaming Keyboard",
+    "price": 799000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Razer Ornata V2 - Hybrid Chroma RGB Gaming Keyboard",
+    "price": 1275000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  },
+  {
+    "name": "Razer Blackwidow Elite - Mechanical Gaming Keyboard (Green Switch)",
+    "price": 2699000,
+    "imageUrl": "",
+    "stock": 30,
+    "categoryId": 5,
+    "brandId": 14
+  }
+]
