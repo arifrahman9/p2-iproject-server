@@ -26,6 +26,9 @@ const errorHandler = (err, req, res, next) => {
     case "Image not found":
       res.status(400).json({ message: "Image not found!" })
       break
+    case "Transaction failed":
+      res.status(400).json({ message: "Transaction failed!" })
+      break
     default:
       res.status(500).json(err)
       break

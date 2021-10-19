@@ -4,7 +4,7 @@ const { hashingPassword } = require("../helpers/bcrypt")
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     static associate(models) {
-      User.belongsToMany(models.Product, { through: "Transaction", foreignKey: "userId" })
+      User.belongsToMany(models.Product, { through: models.Transaction, foreignKey: "userId" })
     }
   }
   User.init(
