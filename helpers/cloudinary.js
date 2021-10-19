@@ -1,14 +1,26 @@
-const cloudinary = require("cloudinary")
-const { Product } = require("../models")
+const cloudinary = require("cloudinary").v2
+const axios = require("axios")
+const FormData = require("form-data")
 
-cloudinary.config({
-  cloud_name: "iprojectcashier",
-  api_key: "459327367978113",
-  api_secret: "J2EJ4rsOXolcq_RA9qdlls6zi-I",
-})
+async function sendFile(file) {
+  try {
+    const form = new FormData()
+    form.append("image", file.buffer.toString("base64"))
+    const response = await axios({
+      method: "post",
+      url: "https://api.imgbb.com/1/upload?key=a35549db1575a661a53541e4820a5028",
+      headers: form.getHeaders(),
+      data: form,
+    })
+    if (!response.data.data.url) {
+      throw { name: "upploadErr" }
+    }
+    return response.data.data.url
+  } catch (err) {
+    console.log(err)
+    throw err
+  }
+}
+// ;("http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg")
 
-cloudinary.v2.uploader.upload("../img/product2.png", { public_id: "Cashier" }, function (error, result) {
-  console.log(result)
-})
-
-module.exports = cloudinary
+module.exports = sendFile
