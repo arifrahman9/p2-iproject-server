@@ -4,6 +4,7 @@
   "description": "Individual Project - Server",
   "main": "index.js",
   "scripts": {
+    "dev": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all",
     "test": "jest --watchAll --detectOpenHandles"
   },
   "repository": {
@@ -18,11 +19,14 @@
   },
   "homepage": "https://github.com/arifrahman9/p2-iproject-server#readme",
   "dependencies": {
+    "axios": "^0.23.0",
     "bcrypt": "^5.0.1",
     "cloudinary": "^1.27.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "form-data": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
     "nodemailer": "^6.7.0",
     "pg": "^8.7.1",
     "sequelize": "^6.7.0"

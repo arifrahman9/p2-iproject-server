@@ -1,7 +1,10 @@
 const router = require("express").Router()
 const ProductController = require("../controller/productController")
+const authentication = require("../middlewares/authentication")
+const authorization = require("../middlewares/authorization")
+const upload = require("../middlewares/multer")
 
+router.use(authentication)
 router.get("/", ProductController.getAllProduct)
-// router.post("/", ProductController.addProduct)
-
+router.post("/", authorization, upload.single("imageUrl"), ProductController.createProduct)
 module.exports = router

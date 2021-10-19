@@ -1,12 +1,29 @@
 "use strict"
-const user = require("../data/user.json")
+
+const { hashingPassword } = require("../helpers/bcrypt")
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    user.forEach((el) => {
-      el.createdAt = new Date()
-      el.updatedAt = new Date()
-    })
+    let user = [
+      {
+        username: "Arif Rahman",
+        email: "admin@gmail.com",
+        password: hashingPassword("admin"),
+        role: "Admin",
+        status: "active",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        username: "Arif Rahman",
+        email: "cashier@gmail.com",
+        password: hashingPassword("cashier"),
+        role: "Cashier",
+        status: "active",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+    ]
     await queryInterface.bulkInsert("Users", user, {})
   },
 

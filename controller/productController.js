@@ -1,6 +1,7 @@
 const { Product } = require("../models")
 const { Op } = require("sequelize")
 const getPagination = require("../helpers/pagination")
+const sendFile = require("../helpers/cloudinary")
 
 class ProductController {
   static async getAllProduct(req, res, next) {
@@ -35,6 +36,24 @@ class ProductController {
 
       res.status(200).json(response)
     } catch (err) {
+      next(err)
+    }
+  }
+  static async createProduct(req, res, next) {
+    try {
+      const { name, price, stock, categoryId, brandId } = req.body
+      const imageUrl = await sendFile(req.file)
+      const response = await Product.create({
+        name,
+        price,
+        imageUrl,
+        stock,
+        categoryId,
+        brandId,
+      })
+      res.status(201).json(response)
+    } catch (err) {
+      console.log(err)
       next(err)
     }
   }

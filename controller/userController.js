@@ -36,7 +36,6 @@ class UserController {
       if (!comparePassword(password, response.password)) {
         throw { name: "Invalid Password" }
       }
-
       if (response.status === "pending") {
         throw { name: "Waiting Approved" }
       }

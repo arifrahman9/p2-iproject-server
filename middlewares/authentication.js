@@ -16,7 +16,6 @@ const authentication = async (req, res, next) => {
         email: payload.email,
       },
     })
-
     req.user = {
       id: response.id,
       email: response.email,

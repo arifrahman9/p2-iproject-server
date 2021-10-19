@@ -14,6 +14,9 @@ const errorHandler = (err, req, res, next) => {
     case "Password is empty":
       res.status(400).json({ message: "Password is required" })
       break
+    case "Forbidden":
+      res.status(400).json({ message: "You cannot access!" })
+      break
     default:
       res.status(500).json(err)
       break
