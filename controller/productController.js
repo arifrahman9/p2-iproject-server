@@ -57,6 +57,25 @@ class ProductController {
       next(err)
     }
   }
+  static async deleteProduct(req, res, next) {
+    try {
+      const productId = +req.params.productId
+      if (typeof productId !== "number" || Number.isNaN(productId)) {
+        throw { name: "Invalid productId" }
+      }
+      const response = await Product.destroy({
+        where: {
+          id: productId,
+        },
+      })
+      if (!response) {
+        throw { name: "Product not found" }
+      }
+      res.status(200).json({ message: "Product has been deleted" })
+    } catch (err) {
+      next(err)
+    }
+  }
 }
 
 module.exports = ProductController
