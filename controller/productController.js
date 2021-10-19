@@ -42,6 +42,9 @@ class ProductController {
   static async createProduct(req, res, next) {
     try {
       const { name, price, stock, categoryId, brandId } = req.body
+      if (!req.file) {
+        throw { name: "Image not found" }
+      }
       const imageUrl = await sendFile(req.file)
       const response = await Product.create({
         name,
@@ -72,6 +75,40 @@ class ProductController {
         throw { name: "Product not found" }
       }
       res.status(200).json({ message: "Product has been deleted" })
+    } catch (err) {
+      next(err)
+    }
+  }
+  static async editProduct(req, res, next) {
+    try {
+      const productId = +req.params.productId
+      if (typeof productId !== "number" || Number.isNaN(productId)) {
+        throw { name: "Invalid productId" }
+      }
+      const { name, price, stock, categoryId, brandId } = req.body
+      let imageUrl
+      if (req.file) {
+        imageUrl = await sendFile(req.file)
+      }
+      const response = await Product.update(
+        {
+          name,
+          price,
+          imageUrl,
+          stock,
+          categoryId,
+          brandId,
+        },
+        {
+          where: {
+            id: productId,
+          },
+        }
+      )
+      if (response[0] === 0) {
+        throw { name: "Product not found" }
+      }
+      res.status(200).json({ message: "Success edit product" })
     } catch (err) {
       next(err)
     }

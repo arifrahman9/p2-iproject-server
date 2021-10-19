@@ -23,6 +23,9 @@ const errorHandler = (err, req, res, next) => {
     case "Invalid productId":
       res.status(400).json({ message: "Id must be number!" })
       break
+    case "Image not found":
+      res.status(400).json({ message: "Image not found!" })
+      break
     default:
       res.status(500).json(err)
       break
