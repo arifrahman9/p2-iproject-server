@@ -1,19 +1,22 @@
 const { User } = require("../models")
 const { comparePassword } = require("../helpers/bcrypt")
 const { createToken } = require("../helpers/jwt")
+const sendEmail = require("../helpers/nodemailer")
 
 class UserController {
   static async register(req, res, next) {
     try {
       const { username, email, password } = req.body
       const response = await User.create({ username, email, password })
+      const content = `Hi Admin!, user with email ${response.email} has successfully registered, please check in Cashier App.`
+      const subject = `Information Registered`
+      sendEmail(response, content, subject)
 
-      res.status(201).json({ email: response.email })
+      res.status(201).json({ message: "Success Registered!" })
     } catch (err) {
       next(err)
     }
   }
-
   static async login(req, res, next) {
     try {
       const { email, password } = req.body
