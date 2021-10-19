@@ -6,6 +6,8 @@ const upload = require("../middlewares/multer")
 
 router.use(authentication)
 router.get("/", ProductController.getAllProduct)
-router.post("/", authorization, upload.single("imageUrl"), ProductController.createProduct)
-router.delete("/:productId", authorization, ProductController.deleteProduct)
+router.use(authorization)
+router.post("/", upload.single("imageUrl"), ProductController.createProduct)
+router.put("/:productId", upload.single("imageUrl"), ProductController.editProduct)
+router.delete("/:productId", ProductController.deleteProduct)
 module.exports = router
