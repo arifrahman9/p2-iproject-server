@@ -3,25 +3,6 @@ const { Op } = require("sequelize")
 const getPagination = require("../helpers/pagination")
 
 class ProductController {
-  static async addProduct(req, res, next) {
-    try {
-      const { name, price, imageUrl, stock, categoryId, brandId } = req.body
-
-      const response = await Product.create({
-        name,
-        price,
-        imageUrl,
-        stock,
-        categoryId,
-        brandId,
-      })
-
-      res.status(201).json(response)
-    } catch (err) {
-      next(err)
-    }
-  }
-
   static async getAllProduct(req, res, next) {
     try {
       let { page, size, category, name } = req.query
@@ -51,8 +32,6 @@ class ProductController {
         offset,
         where: condition,
       })
-      // const response = await Product.findAll()
-      // console.log(response)
 
       res.status(200).json(response)
     } catch (err) {
