@@ -29,6 +29,12 @@ const errorHandler = (err, req, res, next) => {
     case "Transaction failed":
       res.status(400).json({ message: "Transaction failed!" })
       break
+    case "Invalid UserId":
+      res.status(400).json({ message: "UserId must be number!" })
+      break
+    case "User not found":
+      res.status(400).json({ message: "User not found!" })
+      break
     default:
       res.status(500).json(err)
       break
