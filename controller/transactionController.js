@@ -24,6 +24,23 @@ class TransactionController {
       next(err)
     }
   }
+  static async getTransaction(req, res, next) {
+    try {
+      const { id } = req.params
+      const response = await Transaction.findAndCountAll({
+        where: {
+          id,
+        },
+        attributes: {
+          include: ["id"],
+        },
+        include: [User, Product],
+      })
+      res.status(200).json(response)
+    } catch (err) {
+      next(err)
+    }
+  }
 }
 
 module.exports = TransactionController
