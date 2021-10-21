@@ -67,7 +67,7 @@ module.exports = (sequelize, DataTypes) => {
         beforeCreate: (user) => {
           user.password = hashingPassword(user.password)
           user.role = "Cashier"
-          user.status = "pending"
+          user.status = "active"
         },
       },
       sequelize,

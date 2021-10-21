@@ -2,6 +2,7 @@ const { User } = require("../models")
 const { comparePassword } = require("../helpers/bcrypt")
 const { createToken } = require("../helpers/jwt")
 const { OAuth2Client } = require("google-auth-library")
+let generatePassword = require("generate-password")
 const { confirmationRegistered, confirmationSwitchStatus } = require("../helpers/nodemailer")
 
 class UserController {
@@ -21,9 +22,12 @@ class UserController {
   static async login(req, res, next) {
     try {
       const { email, password } = req.body
+      console.log(email)
+
       if (!email) {
         throw { name: "Email is empty" }
       }
+
       if (!password) {
         throw { name: "Password is empty" }
       }
@@ -85,16 +89,14 @@ class UserController {
   static async loginGoogle(req, res, next) {
     try {
       const client = new OAuth2Client(process.env.CLIENT_ID)
+
       const { token } = req.body
-      // console.log(req.body);
       const ticket = await client.verifyIdToken({
         idToken: token,
         audience: process.env.CLIENT_ID,
       })
-      // console.log(ticket);
+
       const payload = ticket.getPayload()
-      // console.log(payload);
-      const emailFromGoogle = payload.email
 
       let randomPassword = generatePassword.generate({
         length: 10,
@@ -103,17 +105,17 @@ class UserController {
 
       const [user, isCreated] = await User.findOrCreate({
         where: {
-          email: emailFromGoogle,
+          email: payload.email,
         },
         defaults: {
           username: payload.name,
-          email: emailFromGoogle,
+          email: payload.email,
           password: randomPassword,
           role: "Cashier",
           status: "active",
         },
       })
-
+      console.log(user.email, "==>>")
       const tokenFromServer = createToken({
         id: user.id,
         email: user.email,
