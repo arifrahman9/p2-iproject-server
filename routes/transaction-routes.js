@@ -8,5 +8,4 @@ router.post("/:productId", TransactionController.createTransaction)
 router.get("/:id", TransactionController.getTransaction)
 
 router.use(errorHandler)
-
 module.exports = router

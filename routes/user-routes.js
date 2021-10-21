@@ -12,5 +12,4 @@ router.use(authentication)
 router.patch("/:userId", authorization, UserController.switchStatus)
 
 router.use(errorHandler)
-
 module.exports = router
