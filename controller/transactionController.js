@@ -3,6 +3,7 @@ const { User, Product, Transaction } = require("../models")
 class TransactionController {
   static async createTransaction(req, res, next) {
     try {
+      const { totalAmount, totalQuantity } = req.body
       const productId = +req.params.productId
       if (typeof productId !== "number" || Number.isNaN(productId)) {
         throw { name: "Invalid productId" }
@@ -15,11 +16,15 @@ class TransactionController {
       const response = await Transaction.create({
         userId: id,
         productId: product.id,
+        totalAmount,
+        totalQuantity,
+        include: Product,
       })
       if (!response) {
         throw { name: "Transaction failed" }
       }
-      res.status(201).json({ message: `Transaction with product ${product.name} successfully added` })
+      // res.status(201).json({ message: `Transaction with product ${product.name} successfully added` })
+      res.status(201).json(response)
     } catch (err) {
       next(err)
     }

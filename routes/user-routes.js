@@ -5,6 +5,7 @@ const authentication = require("../middlewares/authentication")
 
 router.post("/register", UserController.register)
 router.post("/login", UserController.login)
+router.post("/login-google", UserController.loginGoogle)
 
 router.use(authentication)
 router.patch("/:userId", authorization, UserController.switchStatus)
