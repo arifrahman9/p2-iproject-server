@@ -1,4 +1,3 @@
-const cloudinary = require("cloudinary").v2
 const axios = require("axios")
 const FormData = require("form-data")
 
@@ -13,7 +12,7 @@ async function sendFile(file) {
       data: form,
     })
     if (!response.data.data.url) {
-      throw { name: "upploadErr" }
+      throw { name: "Upload Error!" }
     }
     return response.data.data.url
   } catch (err) {

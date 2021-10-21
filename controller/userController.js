@@ -1,6 +1,7 @@
 const { User } = require("../models")
 const { comparePassword } = require("../helpers/bcrypt")
 const { createToken } = require("../helpers/jwt")
+const { OAuth2Client } = require("google-auth-library")
 const { confirmationRegistered, confirmationSwitchStatus } = require("../helpers/nodemailer")
 
 class UserController {
@@ -77,6 +78,48 @@ class UserController {
         throw { name: "User not found" }
       }
       res.status(200).json({ message: "User has been active!" })
+    } catch (err) {
+      next(err)
+    }
+  }
+  static async loginGoogle(req, res, next) {
+    try {
+      const client = new OAuth2Client(process.env.CLIENT_ID)
+      const { token } = req.body
+      // console.log(req.body);
+      const ticket = await client.verifyIdToken({
+        idToken: token,
+        audience: process.env.CLIENT_ID,
+      })
+      // console.log(ticket);
+      const payload = ticket.getPayload()
+      // console.log(payload);
+      const emailFromGoogle = payload.email
+
+      let randomPassword = generatePassword.generate({
+        length: 10,
+        numbers: true,
+      })
+
+      const [user, isCreated] = await User.findOrCreate({
+        where: {
+          email: emailFromGoogle,
+        },
+        defaults: {
+          username: payload.name,
+          email: emailFromGoogle,
+          password: randomPassword,
+          role: "Cashier",
+          status: "active",
+        },
+      })
+
+      const tokenFromServer = createToken({
+        id: user.id,
+        email: user.email,
+        role: user.role,
+      })
+      res.status(200).json({ access_token: tokenFromServer })
     } catch (err) {
       next(err)
     }

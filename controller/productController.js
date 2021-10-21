@@ -1,4 +1,4 @@
-const { Product } = require("../models")
+const { Product, Brand, Category } = require("../models")
 const { Op } = require("sequelize")
 const getPagination = require("../helpers/pagination")
 const sendFile = require("../helpers/cloudinary")
@@ -13,7 +13,7 @@ class ProductController {
       }
 
       if (!size) {
-        size = 4
+        size = 10
       }
 
       const { limit, offset } = getPagination(page, size)
@@ -32,8 +32,18 @@ class ProductController {
         limit,
         offset,
         where: condition,
+        include: [Brand, Category],
       })
 
+      res.status(200).json(response)
+    } catch (err) {
+      next(err)
+    }
+  }
+  static async getOneProduct(req, res, next) {
+    try {
+      const { productId } = req.params
+      const response = await Product.findByPk(productId)
       res.status(200).json(response)
     } catch (err) {
       next(err)
