@@ -64,7 +64,6 @@ class ProductController {
       })
       res.status(201).json(response)
     } catch (err) {
-      console.log(err)
       next(err)
     }
   }

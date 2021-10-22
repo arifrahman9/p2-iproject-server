@@ -101,7 +101,6 @@ class UserController {
         length: 10,
         numbers: true,
       })
-
       const [user, isCreated] = await User.findOrCreate({
         where: {
           email: payload.email,
@@ -114,7 +113,6 @@ class UserController {
           status: "active",
         },
       })
-      console.log(user.email, "==>>")
       const tokenFromServer = createToken({
         id: user.id,
         email: user.email,
