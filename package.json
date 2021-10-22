@@ -4,6 +4,7 @@
   "description": "Individual Project - Server",
   "main": "index.js",
   "scripts": {
+    "work": "npx nodemon app.js",
     "start": "node app.js",
     "dev": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all",
     "test": "jest --watchAll --detectOpenHandles"

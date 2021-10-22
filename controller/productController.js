@@ -18,16 +18,14 @@ class ProductController {
 
       const { limit, offset } = getPagination(page, size)
 
-      let condition = {}
-
-      if (category) {
-        condition.category = +category
-      }
+      const condition = {}
 
       if (name) {
-        condition.name = { [Op.iLike]: `%${name}` }
+        condition.name = { [Op.iLike]: `%${name}%` }
       }
-
+      if (category) {
+        condition.categoryId = +category
+      }
       const response = await Product.findAndCountAll({
         limit,
         offset,

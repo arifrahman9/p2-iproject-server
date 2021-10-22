@@ -22,7 +22,6 @@ class UserController {
   static async login(req, res, next) {
     try {
       const { email, password } = req.body
-      console.log(email)
 
       if (!email) {
         throw { name: "Email is empty" }
@@ -55,7 +54,7 @@ class UserController {
 
       const access_token = createToken(payload)
 
-      res.status(200).json({ access_token })
+      res.status(200).json({ id: payload.id, access_token })
     } catch (err) {
       next(err)
     }
