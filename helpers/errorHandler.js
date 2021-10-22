@@ -24,7 +24,7 @@ const errorHandler = (err, req, res, next) => {
       res.status(400).json({ message: "Id must be number!" })
       break
     case "Image not found":
-      res.status(400).json({ message: "Image not found!" })
+      res.status(404).json({ message: "Image not found!" })
       break
     case "Transaction failed":
       res.status(400).json({ message: "Transaction failed!" })
@@ -33,7 +33,7 @@ const errorHandler = (err, req, res, next) => {
       res.status(400).json({ message: "UserId must be number!" })
       break
     case "User not found":
-      res.status(400).json({ message: "User not found!" })
+      res.status(404).json({ message: "User not found!" })
       break
     default:
       res.status(500).json(err)
