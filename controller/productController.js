@@ -7,13 +7,13 @@ class ProductController {
   static async getAllProduct(req, res, next) {
     try {
       let { page, size, category, name } = req.query
-
+      console.log(size, '====>>>>>>')
       if (!page) {
         page = 1
       }
 
       if (!size) {
-        size = 10
+        size = 4
       }
 
       const { limit, offset } = getPagination(page, size)
@@ -32,7 +32,7 @@ class ProductController {
         where: condition,
         include: [Brand, Category],
       })
-
+      
       res.status(200).json(response)
     } catch (err) {
       next(err)

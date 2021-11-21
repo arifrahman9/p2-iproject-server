@@ -35,11 +35,12 @@ class UserController {
           email,
         },
       })
+      console.log(response)
 
       if (!response.email) {
         throw { name: "Invalid Email" }
       }
-
+      console.log(comparePassword(password, response.password))
       if (!comparePassword(password, response.password)) {
         throw { name: "Invalid Password" }
       }

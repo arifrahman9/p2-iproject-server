@@ -1,6 +1,6 @@
 [
   {
-    "name": "AMD Ryzen 3 3300X 3.8Ghz Up To 4.3Ghz Cache 16MB 65W AM4 [Box] - 4 Core - 100-100000159BOX - With AMD Wraith Stealth Cooler",
+    "name": "AMD Ryzen 3 3300X 3.8Ghz Up To 4.3Ghz",
     "price": 2549000,
     "imageUrl": "https://res.cloudinary.com/iprojectcashier/image/upload/v1634632469/iukv0cfjbmi8dd56ltpb.jpg",
     "stock": 30,
@@ -8,7 +8,7 @@
     "brandId": 1
   },
   {
-    "name": "AMD Ryzen 5 3500 3.6Ghz Up To 4.1Ghz Cache 16MB 65W AM4 [Box] - 6 Core - 100-100000050BOX - With AMD Wraith Stealth Cooler",
+    "name": "AMD Ryzen 5 3500 3.6Ghz Up To 4.1Ghz",
     "price": 2649000,
     "imageUrl": "https://res.cloudinary.com/iprojectcashier/image/upload/v1634632296/nmrswwvkv8rwmmzecqqc.png",
     "stock": 30,
@@ -16,7 +16,7 @@
     "brandId": 1
   },
   {
-    "name": "AMD Ryzen 7 Pinnacle Ridge 2700X 3.7Ghz Up To 4.3Ghz Cache 16MB 105W AM4 [Box] - 8 Core - YD270XBGAFBOX - With AMD Wraith Prism Cooler",
+    "name": "AMD Ryzen 7 Pinnacle Ridge 2700X 3.7Ghz Up To 4.3Ghz",
     "price": 3199000,
     "imageUrl": "https://res.cloudinary.com/iprojectcashier/image/upload/v1634632387/meprdop62vswirw5xna1.png",
     "stock": 30,
@@ -24,7 +24,7 @@
     "brandId": 1
   },
   {
-    "name": "AMD Ryzen 9 5950X 3.4Ghz Up To 4.9Ghz Cache 64MB 105W AM4 [Box] - 16 Core - 100-100000059WOF",
+    "name": "AMD Ryzen 9 5950X 3.4Ghz Up To 4.9Ghz",
     "price": 12899000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634640536/c3msxfhakpi1pgunzbkm.png",
     "stock": 30,
@@ -32,7 +32,7 @@
     "brandId": 1
   },
   {
-    "name": "AMD Ryzen Threadripper 3970X 3.7Ghz Up To 4.5Ghz Cache 128MB 280W sTRX4 [BOX] - 32 Core - 100-100000011WOF",
+    "name": "AMD Ryzen Threadripper 3970X 3.7Ghz Up To 4.5Ghz",
     "price": 30699000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634640628/qu8xmykoowvx7isdhz4c.jpg",
     "stock": 30,
@@ -40,7 +40,7 @@
     "brandId": 1
   },
   {
-    "name": "Intel Core i3-9100 3.6Ghz Up To 4.2Ghz - Cache 6MB [Box] Socket LGA 1151V2 - Coffeelake Series",
+    "name": "Intel Core i3-9100 3.6Ghz Up To 4.2Ghz",
     "price": 2210000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634640694/weyufj3xgw4wnzkxfijb.jpg",
     "stock": 30,
@@ -48,7 +48,7 @@
     "brandId": 2
   },
   {
-    "name": "Intel Core i5-7640X 4.0Ghz Up To 4.2Ghz - Cache 6MB [Box] Socket LGA 2066 - Kabylake-X Series",
+    "name": "Intel Core i5-7640X 4.0Ghz Up To 4.2Ghz",
     "price": 3915000,
     "imageUrl": "https://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -56,7 +56,7 @@
     "brandId": 2
   },
   {
-    "name": "Intel Core i7-7820X 3.6Ghz Up To 4.3Ghz - Cache 11MB [Box] Socket LGA 2066 - Skylake-X Series",
+    "name": "Intel Core i7-7820X 3.6Ghz Up To 4.3Ghz",
     "price": 9600000,
     "imageUrl": "https://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -64,7 +64,7 @@
     "brandId": 2
   },
   {
-    "name": "Intel Core i9-9980XE 3.0Ghz Up To 4.4Ghz - Cache 24.75MB [Box] Socket LGA 2066 - Skylake-X Series",
+    "name": "Intel Core i9-9980XE 3.0Ghz Up To 4.4Ghz",
     "price": 28150000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634640775/xxmxaqjgi6yaoyqn7nhm.jpg",
     "stock": 30,
@@ -72,7 +72,7 @@
     "brandId": 2
   },
   {
-    "name": "Intel Xeon BRONZE 3106, 1.70Ghz, Cache 11MB, LGA 3647",
+    "name": "Intel Xeon BRONZE 3106 1.70Ghz",
     "price": 5208000,
     "imageUrl": "https://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -208,7 +208,7 @@
     "brandId": 6
   },
   {
-    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Vision OC - GV-N3080VISION OC-10GD",
+    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Vision OC",
     "price": 24399000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642209/mdb8o6f7dzghpudbphsb.jpg",
     "stock": 30,
@@ -216,7 +216,7 @@
     "brandId": 7
   },
   {
-    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Aorus Xtreme - GV-N3080AORUS X-10GD",
+    "name": "Gigabyte GeForce RTX 3080 10GB GDDR6X Aorus Xtreme",
     "price": 27499000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -224,7 +224,7 @@
     "brandId": 7
   },
   {
-    "name": "Gigabyte GeForce RTX 3090 24GB GDDR6X Aorus Xtreme - GV-N3090AORUS X-24GD",
+    "name": "Gigabyte GeForce RTX 3090 24GB GDDR6X Aorus Xtreme",
     "price": 43349000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -232,7 +232,7 @@
     "brandId": 7
   },
   {
-    "name": "Gigabyte GeForce RTX 3080 Ti 12GB GDDR6X Aorus Xtreme Waterforce - GV-N308TAORUS X WB-12GD",
+    "name": "Gigabyte GeForce RTX 3080 Ti 12GB GDDR6X Aorus Xtreme Waterforce",
     "price": 18399000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -272,7 +272,7 @@
     "brandId": 8
   },
   {
-    "name": "Kingston KVR DDR4 2666 Mhz (PC 21000) 8GB - KVR26N19S6/8",
+    "name": "Kingston KVR DDR4 2666 Mhz (PC 21000) 8GB",
     "price": 685000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -280,7 +280,7 @@
     "brandId": 9
   },
   {
-    "name": "Kingston Fury Beast DDR4 3200MHz (PC25600) 16GB (2x8GB) - KF432C16BBK2/16",
+    "name": "Kingston Fury Beast DDR4 3200MHz (PC25600) 16GB",
     "price": 1225000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642392/ock4kfz0o03v4suurq0u.jpg",
     "stock": 30,
@@ -288,7 +288,7 @@
     "brandId": 9
   },
   {
-    "name": "Kingston Fury Beast DDR4 3600MHz (PC28800) 16GB (2x8GB) - KF436C17BBK2/16",
+    "name": "Kingston Fury Beast DDR4 3600MHz (PC28800) 16GB",
     "price": 1375000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642392/ock4kfz0o03v4suurq0u.jpg",
     "stock": 30,
@@ -296,7 +296,7 @@
     "brandId": 9
   },
   {
-    "name": "Kingston Fury Beast RGB DDR4 3200MHz (PC25600) 16GB (2x8GB) - KF432C16BBAK2/16",
+    "name": "Kingston Fury Beast RGB DDR4 3200MHz (PC25600) 16GB",
     "price": 1399000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642392/ock4kfz0o03v4suurq0u.jpg",
     "stock": 30,
@@ -312,7 +312,7 @@
     "brandId": 10
   },
   {
-    "name": "V-GeN TsunamiR DDR4 PC21000 2666Mhz Single Channel 4GB (1x4GB) 16-18-18-35",
+    "name": "V-GeN TsunamiR DDR4 PC21000 2666Mhz Single Channel 4GB",
     "price": 332000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -320,7 +320,7 @@
     "brandId": 10
   },
   {
-    "name": "V-GeN TsunamiR DDR4 PC24000 3000Mhz Single Channel 8GB (1x8GB) 15-17-17-35",
+    "name": "V-GeN TsunamiR DDR4 PC24000 3000Mhz Single Channel 8GB",
     "price": 590000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -328,7 +328,7 @@
     "brandId": 10
   },
   {
-    "name": "V-GeN TsunamiR DDR4 PC25600 3200Mhz Single Channel 16GB (1x16GB) 16-18-18-36",
+    "name": "V-GeN TsunamiR DDR4 PC25600 3200Mhz Single Channel 16GB",
     "price": 1088000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -336,7 +336,7 @@
     "brandId": 10
   },
   {
-    "name": "Corsair DDR4 Vengeance LPX PC19200 8GB (1X8GB) - CMK8GX4M1A2400C16",
+    "name": "Corsair DDR4 Vengeance LPX PC19200 8GB",
     "price": 629000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642513/st70hzp6bjxlsr7kms8n.jpg",
     "stock": 30,
@@ -344,7 +344,7 @@
     "brandId": 11
   },
   {
-    "name": "Corsair DDR4 Vengeance LPX PC21000 32GB (1X32GB) - CMK32GX4M1A2666C16",
+    "name": "Corsair DDR4 Vengeance LPX PC21000 32GB",
     "price": 2699000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642513/st70hzp6bjxlsr7kms8n.jpg",
     "stock": 30,
@@ -352,7 +352,7 @@
     "brandId": 11
   },
   {
-    "name": "Corsair DDR4 Vengeance LPX PC25600 16GB (2X8GB) - CMK16GX4M2B3200C16W",
+    "name": "Corsair DDR4 Vengeance LPX PC25600 16GB",
     "price": 1329000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642513/st70hzp6bjxlsr7kms8n.jpg",
     "stock": 30,
@@ -360,7 +360,7 @@
     "brandId": 11
   },
   {
-    "name": "Corsair DDR4 Vengeance RGB Pro PC28800 32GB (2X16GB) - CMW32GX4M2Z3600C14 - For AMD RYZEN",
+    "name": "Corsair DDR4 Vengeance RGB Pro PC28800 32GB",
     "price": 4319000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642513/st70hzp6bjxlsr7kms8n.jpg",
     "stock": 30,
@@ -392,7 +392,7 @@
     "brandId": 12
   },
   {
-    "name": "Logitech K580 Slim Multi-Device Wireless Keyboard (Graphite/Off-white)",
+    "name": "Logitech K580 Slim Multi-Device Wireless Keyboard",
     "price": 536000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642672/neseolkzgnrbciu2gqj3.jpg",
     "stock": 30,
@@ -408,7 +408,7 @@
     "brandId": 13
   },
   {
-    "name": "Sades Keyboard K10 Dual Color Pink-White Mechanical Full Size",
+    "name": "Sades Keyboard K10 Dual Color Pink-White Mechanical",
     "price": 430000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -416,7 +416,7 @@
     "brandId": 13
   },
   {
-    "name": "Sades Keyboard Mechanical TKL RGB Lucent",
+    "name": "Sades Keyboard Mechanical TKL RGB",
     "price": 535000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -432,7 +432,7 @@
     "brandId": 13
   },
   {
-    "name": "Razer Cynosa Chroma – Multi-Color Membrane Gaming Keyboard",
+    "name": "Razer Cynosa Chroma",
     "price": 849000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -440,7 +440,7 @@
     "brandId": 14
   },
   {
-    "name": "Razer Cynosa V2 - Chroma RGB Membrane Gaming Keyboard",
+    "name": "Razer Cynosa V2",
     "price": 799000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -448,7 +448,7 @@
     "brandId": 14
   },
   {
-    "name": "Razer Ornata V2 - Hybrid Chroma RGB Gaming Keyboard",
+    "name": "Razer Ornata V2",
     "price": 1275000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
@@ -456,7 +456,7 @@
     "brandId": 14
   },
   {
-    "name": "Razer Blackwidow Elite - Mechanical Gaming Keyboard (Green Switch)",
+    "name": "Razer Blackwidow Elite",
     "price": 2699000,
     "imageUrl": "http://res.cloudinary.com/iprojectcashier/image/upload/v1634642049/hsvctonjutrlnlfav6aw.jpg",
     "stock": 30,
